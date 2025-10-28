@@ -67,6 +67,7 @@ text-p-reviews {
     justify-content: space-between;
     align-items: flex-end;
     padding-top: 20px;
+    margin-bottom: 115px;
 }
 .logo {
     width: 60px;
@@ -76,12 +77,43 @@ text-p-reviews {
     width: 50px;
     height: 50px;
     padding: 0;
-    border: 0;
+    background-color: var(--accent-color);
+    cursor: pointer;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
     /* background-color: var(--accent-color); */
 }
 .burger__line {
+    display: block;
+    width: 21px;
+    height: 3px;
+    background-color:#FFF;
+    margin-bottom: 4px;
+}
+.burger__line:last-child {
+     margin-bottom: 0;
 }
 .h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--white-color);
+    max-width: 734px;
+    margin: 0 auto;
 }
 .h4 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--white-color);
+    max-width: 734px;
+    margin: 19px auto 0 ;
 }
