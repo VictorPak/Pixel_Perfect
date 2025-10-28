@@ -1,0 +1,87 @@
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+/* 
+font-family: "Oswald", sans-serif;
+ font-family: "Open Sans", sans-serif; 
+ */
+body {
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+/* Цвета */
+:root {
+    --accent-color:#F7654A;
+    --gray-color:#999999;
+    --dark-color:#404149;
+    --white-color:#FFFFFF;
+    --background-color: #E5E5E5;
+}
+/* Стили для текста*/
+.text-h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: var(--dark-color);
+}
+.text-h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--dark-color);
+}
+.text-h4 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: var(--white-color);
+}
+text-p {
+    font-family: "Open Sans", sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--gray-color);
+}
+text-p-reviews {
+    font-family: "Open Sans", sans-serif; 
+    font-size: 14px;
+    line-height: 24px;
+}
+.header {
+    min-height: 740px;
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 20px;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+}
+.burger {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border: 0;
+    /* background-color: var(--accent-color); */
+}
+.burger__line {
+}
+.h1 {
+}
+.h4 {
+}
