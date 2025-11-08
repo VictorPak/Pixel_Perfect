@@ -113,9 +113,13 @@ text-p-reviews {
     text-align: center;
     color: var(--white-color);
     max-width: 734px;
-    margin: 0 auto;
-
-    
+    margin: 0 auto; 
+}
+@media screen and (max-width: 380px){
+    .h1 {
+        font-size: 46px;
+        line-height: 64px;
+    }
 }
 .h4 {
     font-family: "Oswald", sans-serif;
@@ -263,15 +267,14 @@ text-p-reviews {
 /* request */
 .request {
     background-color: var(--accent-color);
-   padding-bottom: 45px;
+   padding-bottom: 40px;
 }
 .request__flex {
     display: flex;
     justify-content: space-between;
     align-items:center
 }
-.request__flex-left {
-}
+
 .request__h4 {
     margin-top: 30px;
     font-weight: 700;
@@ -302,7 +305,6 @@ text-p-reviews {
     text-transform: uppercase;
     font-family: "Oswald", sans-serif;
     padding: 14px 30px;
-
 }
 .request__icon {
     margin-right: 15px;
@@ -318,4 +320,68 @@ text-p-reviews {
     flex-wrap: wrap;
     padding-bottom: 45px;
    } 
+}
+/* services */
+.services {
+    padding-top: 148px;
+    padding-bottom: 150px;
+    
+}
+.section-h2 {
+    padding-bottom: 55px;
+    text-align: center;
+    color: #000;
+}
+.services__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    justify-items: center;
+    
+}
+.services__grid-item {
+    background: #f7f7f7;
+    width: 350px;
+    padding-top: 57px;
+    padding-bottom: 59px;
+}
+.services__icon {
+    margin: 0 auto 24px;
+}
+
+.services-h4 {
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin: 0 auto;
+    color: #000;
+    text-transform: uppercase;
+    max-width: 172px;
+}
+
+
+@media screen and (max-width: 1280px){
+     .services {
+         padding-top: 148px;
+        padding: 148px 15px 0;
+    }
+   
+    .services__grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);      
+    }
+    .services__grid-item {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
+      .services {
+         padding-top: 120px;
+        padding: 148px 15px 0;
+    }
+        .services__grid {
+    grid-template-columns: repeat(1, 1fr);
+    }
 }
