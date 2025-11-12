@@ -394,11 +394,7 @@ text-p-reviews {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.portfolio__grid-items {
-}
-.portfolo-img{
 
-}
 
 
 @media screen and (max-width: 1280px){
@@ -418,8 +414,7 @@ text-p-reviews {
     padding-top: 150px;
     padding-bottom: 110px;
 }
-.section-h2 {
-}
+
 .question-h2 {
     color: var(--accent-color);
     font-weight: 500;
@@ -427,10 +422,7 @@ text-p-reviews {
     text-transform: uppercase;
     margin-bottom: -8px;
 }
-.question-items {
-}
-.question-item {
-}
+
 
 .question-h3 {
     color: var(--accent-color);
@@ -628,8 +620,7 @@ text-p-reviews {
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 }
-.contacts__grig-item {
-}
+
 .contacts_card {
     max-width: 255px;
     
@@ -683,8 +674,7 @@ text-p-reviews {
     justify-content: space-between;
     padding-top: 30px;
 }
-.footer__flex-item {
-}
+
 
 .footer-p {
     font-family: "Open Sans", sans-serif;
