@@ -658,6 +658,18 @@ text-p-reviews {
 .contacts-h3-color {
      color: var(--accent-color);
 }
+
+@media screen and (max-width: 1280px){
+    .contacts__grid{
+        grid-template-columns: repeat(2, 1fr);
+}
+}
+@media screen and (max-width: 768px){
+    .contacts__grid{
+        grid-template-columns: repeat(1, 1fr);
+}
+}
+
 /* footer */
 .footer {
     height: 82px;
@@ -675,5 +687,5 @@ text-p-reviews {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: var(--white);
+    color: var(--white-color);
     }
