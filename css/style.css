@@ -387,6 +387,8 @@ text-p-reviews {
 }
 /* portfolio */
 .portfolio {
+    max-width: 1920px;
+    margin: 0 auto;
 }
 .portfolio__grid {
     display: grid;
@@ -395,6 +397,7 @@ text-p-reviews {
 .portfolio__grid-items {
 }
 .portfolo-img{
+
 }
 
 
@@ -489,9 +492,9 @@ text-p-reviews {
 
 /* partners */
 .parnters {
-   max-width: 1920px;
     height: 364px;
     background: var(--dark-color);
+    margin: 0 auto;
 }
 
 .partners-h2 {
